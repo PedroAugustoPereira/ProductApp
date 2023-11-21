@@ -1,10 +1,7 @@
-import {
-  literal,
-  Op,
-} from 'sequelize';
+import { literal, Op } from "sequelize";
 
-import { Product } from '../models';
-import { ProductCreationAttributes } from '../models/Product';
+import { Product } from "../models";
+import { ProductCreationAttributes } from "../models/Product";
 
 const productService = {
   getForTime: async (page: number, perPage: number) => {
@@ -12,7 +9,7 @@ const productService = {
 
     const { rows, count } = await Product.findAndCountAll({
       attributes: ["id", "name", "description", "price", "available"],
-      order: [["name", "ASC"]],
+      order: [["updatedAt", "DESC"]],
       limit: perPage,
       offset,
     });
