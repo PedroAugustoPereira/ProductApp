@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500&display=swap");
+
+* {
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+}
+
+body {
+  max-height: 100vh;
+  /* max-width: 100vw; */
+  overflow: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #151515;
+  background: #1d1e42;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #151515;
+  border-radius: 8px;
+}

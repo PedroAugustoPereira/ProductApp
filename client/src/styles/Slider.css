@@ -1,0 +1,7 @@
+.move {
+  transition: transform 0.5s ease-in-out;
+}
+
+.slides {
+  transition: transform 0.5s ease-in-out;
+}
