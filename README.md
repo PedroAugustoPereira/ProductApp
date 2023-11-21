@@ -17,3 +17,5 @@ yarn start:dev (rodar a aplicação)
 faça isso em terminal distintos para que a aplicação funcione!
 
 Link do respositório: https://github.com/PedroAugustoPereira/ProductApp
+
+Vídeo mostrando o funcionamento: https://drive.google.com/file/d/1lm9nKr3Rz0Y0mOiLnvJhlhcaO_zupFvn/view?usp=sharing
